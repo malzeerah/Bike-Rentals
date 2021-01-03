@@ -549,7 +549,7 @@ algosClass.append(('Support Vector Regression',SVR()))
 results = []
 names = []
 for name, model in algosClass:
-    result = cross_val_score(model, X,y, cv=10, scoring='r2')
+    result = cross_val_score(model, X,y, cv=5, scoring='r2')
     names.append(name)
     results.append(result)
     
@@ -568,7 +568,7 @@ algo = RandomForestRegressor()
 model = algo.fit(X_train,y_train)
 
 # Print CV score
-print(cross_val_score(model, X, y, cv=10))
+print(cross_val_score(model, X, y, cv=5))
 ## [-1.36954942  0.58864123  0.73418183  0.72964755  0.8551581   0.85801288  0.8156663   0.86126261  0.87205903  0.70233781]
 ## Based on these results, let's reduce cv to 5
 
@@ -652,7 +652,7 @@ algosClass.append(('Support Vector Regression',SVR()))
 results = []
 names = []
 for name, model in algosClass:
-    result = cross_val_score(model, X,y, cv=10, scoring='r2')
+    result = cross_val_score(model, X,y, cv=5, scoring='r2')
     names.append(name)
     results.append(result)
     
@@ -664,7 +664,7 @@ for i in range(len(names)):
 ## Support Vector Regression -2.23233433155258
 
 # Print CV score
-print(cross_val_score(model, X, y, cv=10))
+print(cross_val_score(model, X, y, cv=5))
 ## [-5.79273625  0.37588019  0.73890692  0.71397409  0.8458479   0.84804388  0.78264051  0.85591533  0.86249041  0.61741528]
 ## Based on these results, let's reduce cv to 5
 
