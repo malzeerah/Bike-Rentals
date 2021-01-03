@@ -39,8 +39,6 @@ The dataset was comprised of 1 year worth of bike rentals containing the followi
   <li>Communicate Results</li>
 </ul>
  
-## Model Building 
-
-## Model Performance
+## Model Building & Performance
 
 
