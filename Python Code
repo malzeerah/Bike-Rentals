@@ -495,6 +495,31 @@ data.groupby('hourly_temp')['Rented_Bike_Count'].sum()
 ##	11 ~  31 to 35  --    402,643           
 ##  12 ~  36 to 39  --     47,585  -- Hottest Temp
 
+# Pivot Table: Average bike rentals by seasons & temperature
+print(pd.pivot_table(data, index = 'Seasons', columns = 'hourly_temp', values = 'Rented_Bike_Count' ,aggfunc ='mean'))
+## hourly_temp          1           2           3           4           5   \
+## Seasons                                                                   
+## Autumn              NaN         NaN         NaN  574.102564  561.237354   
+## Spring              NaN         NaN  197.857143  237.574468  331.264901   
+## Summer              NaN         NaN         NaN         NaN         NaN   
+## Winter       104.652174  150.741758  176.875789  221.312500  278.723562    
+
+## hourly_temp          6           7            8            9            10  \
+## Seasons                                                                      
+## Autumn       676.971429  793.258696   829.914397  1098.479042  1481.011111   
+## Spring       441.493927  640.293381  1029.281369  1368.397541  1655.275862   
+## Summer              NaN         NaN   653.438356  1020.515110  1169.397919   
+## Winter       424.883721         NaN          NaN          NaN          NaN   
+
+## hourly_temp           11          12  
+## Seasons                               
+## Autumn               NaN         NaN  
+## Spring               NaN         NaN  
+## Summer       1106.162088  865.181818  
+## Winter               NaN         NaN 
+
+
+
 ## The temperature with the most rented bikes is 21 to 35 degrees with over 1000 bikes rented on average.  
 ## The colder temperatures (0* or less) no more than 300 bikes are rented on average. 
 
