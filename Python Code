@@ -434,7 +434,7 @@ data.groupby('Hour')['Rented_Bike_Count'].sum()
 # Scatter plot of bikes rented by hour. 
 sns.catplot('Hour', 'Rented_Bike_Count', data=data)
 
-## Peak hours (more than 2,500 rented) are 8, 14 - 22 Least hours (less than 1,000 rented) are 2 - 6
+## On average, less than 150 bikes are rented at 4:00 & 5:00. More than 1,000 bikes are rented on average at 8:00 and from 17:00 – 21:00. 
 
 #########################
 ## Business Question 4 ##
@@ -495,8 +495,9 @@ data.groupby('hourly_temp')['Rented_Bike_Count'].sum()
 ##	11 ~  31 to 35  --    402,643           
 ##  12 ~  36 to 39  --     47,585  -- Hottest Temp
 
-## The temperature with the most rented bikes is 21 to 25 degrees. 
-## The hottest (36 - 40) and coldest
+## The temperature with the most rented bikes is 21 to 35 degrees with over 1000 bikes rented on average.  
+## The colder temperatures (0* or less) no more than 300 bikes are rented on average. 
+
 
 ##############
 ## Model 1 ##
