@@ -1,7 +1,21 @@
-# Bike-Rentals
+## Project Overview 
 
 Our objective is to predict hourly bike rentals to ensure supply can meet demand. 
+<br>
+In addition, we will investgate the following business problems: 
 
+<ul> 
+	<li>Is there a day of the week when bikes are rented more than others?</li>
+	<li>Is there a season when bikes are rented more than others?</li>
+	<li>Is there an hour when bikes are rented the most?</li>
+	<li>Is there a temperature when the most bikes are rented? </li>
+</ul>	
+
+## Code & Resources
+<b>Python Version: 3.7</b>
+<br>
+<b>Packages:</b> pandas, numpy, sklearn, matplotlib, seaborn, pandas_profiling, math
+<br><br>
 <b>Data:</b> Dataset was provided by <a href="https://archive.ics.uci.edu/ml/datasets/Seoul+Bike+Sharing+Demand" target="_blank">UCI Archives</a>.
 
 The dataset was comprised of 1 year worth of bike rentals containing the following attributes: 
@@ -15,7 +29,7 @@ The dataset was comprised of 1 year worth of bike rentals containing the followi
  	<li>Functional Day (Closed/Open)</li>
 </ul>
 
-<b>Data SCience Project Framework</b>
+<b>Data Science Project Framework</b>
 <ul>
 	<li>Frame the business problem</li>
  	<li>Obtain the data</li>
@@ -25,6 +39,8 @@ The dataset was comprised of 1 year worth of bike rentals containing the followi
   <li>Communicate Results</li>
 </ul>
  
+## Model Building 
 
+## Model Performance
 
 
