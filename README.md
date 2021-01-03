@@ -29,7 +29,7 @@ The dataset was comprised of 1 year worth of bike rentals containing the followi
  	<li>Functional Day (Closed/Open)</li>
 </ul>
 
-<b>Data Science Project Framework</b>
+## Data Science Project Framework
 <ul>
 	<li>Frame the business problem</li>
  	<li>Obtain the data</li>
@@ -41,4 +41,17 @@ The dataset was comprised of 1 year worth of bike rentals containing the followi
  
 ## Model Building & Performance
 
-
+I started by transforming the categorical variables into numeric variables. <br>
+Then I also created train and tests sets with a test size of 25%.
+<br><br>
+For the first model I included all data points as features. We tried three algorithms (Random Forest, Linear Regression, Support Vector Machine) and determined Random Forest performed the best. 
+<br><br>
+Random Forest Outcomes:  <br>
+&emsp; R Squared: 0.932 <br>
+&emsp; RMSE: 165.997
+<br><br>
+From our first model we discovered temperature and hour of the day were the most importnat features. With this insight I discritized the temperature data and built a new model with this new data point. I tried the same three algorithms (Random Forest, Linear Regression, Support Vector Machine) and determined Random Forest performed the best. 
+<br><br>
+Random Forest Outcomes: <br>
+&emsp; R Squared: 0.931 <br>
+&emsp; RMSE: 166.985
