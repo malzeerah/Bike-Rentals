@@ -6,7 +6,7 @@ In addition, we will investigate the following business problems:
 
 <ul> 
 	<li>Is there a day of the week when bikes are rented more than others?</li>
-	<li>Is there an hour when bikes are rented the most?</li>
+	<li>Is there an hour when bikes are rented most?</li>
 	<li>Is there a season when bikes are rented more than others?</li>
 	<li>Is there a temperature when most bikes are rented? </li>
 </ul>	
