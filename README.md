@@ -42,7 +42,7 @@ The dataset was comprised of 1 year worth of bike rentals containing the followi
 ## Model Building & Performance
 
 I started by transforming the categorical variables into numeric variables. <br>
-Then I also created train and tests sets with a test size of 25%.
+Then I created train and tests sets with a test size of 25%.
 <br><br>
 For the first model I included all data points as features. We tried three algorithms (Random Forest, Linear Regression, Support Vector Machine) and determined Random Forest performed the best. 
 <br><br>
