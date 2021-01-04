@@ -2,13 +2,13 @@
 
 Our objective is to predict hourly bike rentals to ensure supply can meet demand. 
 <br>
-In addition, we will investgate the following business problems: 
+In addition, we will investigate the following business problems: 
 
 <ul> 
 	<li>Is there a day of the week when bikes are rented more than others?</li>
 	<li>Is there an hour when bikes are rented the most?</li>
 	<li>Is there a season when bikes are rented more than others?</li>
-	<li>Is there a temperature when the most bikes are rented? </li>
+	<li>Is there a temperature when most bikes are rented? </li>
 </ul>	
 
 ## Code & Resources
@@ -44,13 +44,13 @@ The dataset was comprised of 1 year worth of bike rentals containing the followi
 I started by transforming the categorical variables into numeric variables. <br>
 Then I created train and tests sets with a test size of 25%.
 <br><br>
-For the first model I included all data points as features. We tried three algorithms (Random Forest, Linear Regression, Support Vector Machine) and determined Random Forest performed the best. 
+For the first model, I included all data points as features. We tried three algorithms (Random Forest, Linear Regression, Support Vector Machine) and determined Random Forest performed the best. 
 <br><br>
 Random Forest Outcomes:  <br>
 &emsp; R Squared: 0.929 <br>
 &emsp; RMSE: 168.621
 <br><br>
-From our first model we discovered temperature and hour of the day were the most importnat features. With this insight I discritized the temperature data and built a new model with this new data point. I tried the same three algorithms (Random Forest, Linear Regression, Support Vector Machine) and determined Random Forest performed the best. 
+From our first model, we discovered temperature and hour of the day were the most important features. With this insight I discretized the temperature data and built a new model with this new data point. I tried the same three algorithms (Random Forest, Linear Regression, Support Vector Machine) and determined Random Forest performed the best. 
 <br><br>
 Random Forest Outcomes: <br>
 &emsp; R Squared: 0.925 <br>
