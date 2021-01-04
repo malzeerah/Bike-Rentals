@@ -590,7 +590,7 @@ print('RMSE: %.3f' % rmse)
 ## R Squared: 0.932
 ## RMSE: 165.997
 
-print(predictions)
+print(predictions_test)
 ## [ 189.42  750.5  2133.18 ... 1775.25  399.85 1295.93]
 
 # Variable Importance
@@ -662,6 +662,13 @@ for i in range(len(names)):
 ## Random Forest Regressor 0.10691011805543034 -- ** 
 ## Linear Regression -0.8305023473710389
 ## Support Vector Regression -2.23233433155258
+
+# create the necessary training and testing data (75/25)
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = .25, random_state = 123)
+
+#Modeling (Regression)
+algo = RandomForestRegressor()
+model = algo.fit(X_train,y_train)
 
 # Print CV score
 print(cross_val_score(model, X, y, cv=5))
