@@ -16,9 +16,9 @@ In addition, we will investgate the following business problems:
 <br>
 <b>Packages:</b> pandas, numpy, sklearn, matplotlib, seaborn, pandas_profiling, math
 <br><br>
-<b>Data:</b> Dataset was provided by <a href="https://archive.ics.uci.edu/ml/datasets/Seoul+Bike+Sharing+Demand" target="_blank">UCI Archives</a>.
+<b>Data:</b> The 'Seoul Bike Sharing' dataset was provided by <a href="https://archive.ics.uci.edu/ml/datasets/Seoul+Bike+Sharing+Demand" target="_blank">UCI Archives</a>.
 
-The 'Seoul Bike Sharing' dataset was comprised of 1 year worth of bike rentals containing the following attributes: 
+The dataset was comprised of 1 year worth of bike rentals containing the following attributes: 
 <ul>
 	<li>Date (Dec 2017 – Nov 2018)</li>
  	<li>Hour of Day </li>
