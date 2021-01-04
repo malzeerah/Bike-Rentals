@@ -1,6 +1,6 @@
 ## Project Overview 
 
-Our objective is to predict hourly bike rentals to ensure supply can meet demand. 
+Our objective is to predict hourly bike rentals to ensure supply can meet future demand. 
 <br>
 In addition, we will investigate the following business problems: 
 
