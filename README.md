@@ -53,5 +53,5 @@ Random Forest Outcomes:  <br>
 From our first model we discovered temperature and hour of the day were the most importnat features. With this insight I discritized the temperature data and built a new model with this new data point. I tried the same three algorithms (Random Forest, Linear Regression, Support Vector Machine) and determined Random Forest performed the best. 
 <br><br>
 Random Forest Outcomes: <br>
-&emsp; R Squared: 0.925
+&emsp; R Squared: 0.925 <br>
 &emsp; RMSE: 173.585
