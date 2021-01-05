@@ -15,6 +15,8 @@ In addition, we will investigate the following business problems:
 <b>Python Version: 3.7</b>
 <br>
 <b>Packages:</b> pandas, numpy, sklearn, matplotlib, seaborn, pandas_profiling, math
+<br>
+<b>supervised learning approach:</b> Regression
 <br><br>
 <b>Data:</b> The 'Seoul Bike Sharing' dataset was provided by <a href="https://archive.ics.uci.edu/ml/datasets/Seoul+Bike+Sharing+Demand" target="_blank">UCI Archives</a>.
 
