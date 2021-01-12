@@ -1,3 +1,4 @@
+Python | Jupyter Notebook | Regression
 ## Project Overview 
 
 Our objective is to predict hourly bike rentals to ensure supply can meet future demand. 
