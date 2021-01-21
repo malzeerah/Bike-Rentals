@@ -17,7 +17,8 @@ In addition, we will investigate the following business problems:
 <br>
 <b>Packages:</b> pandas, numpy, sklearn, matplotlib, seaborn, pandas_profiling, math
 <br>
-<b>Supervised learning approach:</b> Regression
+<b>Supervised learning approach:</b> Regression<br>
+<b>IDE</b> Jupyter Notebook
 <br><br>
 <b>Data:</b> The 'Seoul Bike Sharing' dataset was provided by <a href="https://archive.ics.uci.edu/ml/datasets/Seoul+Bike+Sharing+Demand" target="_blank">UCI Archives</a>.
 
@@ -38,7 +39,7 @@ The dataset was comprised of 1 year worth of bike rentals containing the followi
  	<li>Obtain the data</li>
 	<li>Preprocessing</li>
   <li>Exploratory Data Analytics (EDA)</li>
-  <li>Perform in-depth Analysis</li>
+  <li>Perform modeling</li>
   <li>Communicate Results</li>
 </ul>
  
